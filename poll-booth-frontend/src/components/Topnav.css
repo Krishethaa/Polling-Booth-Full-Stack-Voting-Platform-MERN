@@ -1,0 +1,141 @@
+.topnav {
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+}
+
+.topnav .left {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.topnav .center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  position: relative;
+  width: 700px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.search-box {
+  width: 100%;
+  padding: 8px 8px 8px 32px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: #333;
+  background-color: #eeedf1;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #555;
+  font-size: 16px;
+}
+
+.search-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  color: black;
+  border: 1px solid #ccc;
+  border-top: none;
+  max-height: 200px;
+  overflow-y: auto;
+  border-radius: 0 0 8px 8px;
+  z-index: 10000;
+}
+
+.search-suggestion-item {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.search-suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
+.topnav .right {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: default;
+}
+
+.icon,
+.dropdown-icon {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* Profile image style */
+.profile-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/* Edit button styling inside the offcanvas */
+.edit-profile-btn {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.edit-profile-btn:hover {
+  background-color: #e0e0e0;
+}
+
+/* Delete Account Button */
+.delete-account-btn {
+  background-color: #f44336; /* Red */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.delete-account-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Login Button */
+.login-btn {
+  background-color: #2196f3; /* Blue */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-btn:hover {
+  background-color: #1976d2;
+}
+

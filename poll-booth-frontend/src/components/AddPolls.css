@@ -1,0 +1,150 @@
+/* AddPoll Container */
+.poll-container {
+  max-width: 540px;
+  margin: 40px auto;
+  padding: 22px 26px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Heading */
+.poll-form h3 {
+  text-align: center;
+  margin-bottom: 18px;
+  font-size: 22px;
+  color: #333;
+}
+
+/* Question Textarea */
+.poll-form textarea {
+  width: 100%;
+  padding: 10px;
+  resize: vertical;
+  margin-bottom: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+/* Options Section */
+.options-box {
+  margin-bottom: 16px;
+}
+
+.option-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.option-icon {
+  font-size: 1.2rem;
+}
+
+.option-group input {
+  flex: 1;
+  max-width: 270px;
+  padding: 7px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+}
+
+.delete-option {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Add Option Button */
+.add-option {
+  background-color: #28a745;
+  color: white;
+  padding: 6px 14px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.add-option:hover {
+  background-color: #218838;
+}
+
+/* Date & Time Inputs */
+.datetime-group {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.datetime-group div {
+  flex: 1;
+}
+
+.datetime-group label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.datetime-group input {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Category Dropdown */
+.poll-form select {
+  width: 100%;
+  padding: 9px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  margin-bottom: 18px;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.cancel-btn,
+.submit-btn {
+  padding: 7px 16px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.cancel-btn {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.cancel-btn:hover {
+  background-color: #5a6268;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}

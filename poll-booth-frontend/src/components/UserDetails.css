@@ -1,0 +1,225 @@
+.user-details-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Profile Card */
+.profile-card {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Welcome Text */
+.profile-card h2 {
+    margin-bottom: 18px;
+    font-size: 26px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Buttons Row */
+.profile-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Individual Buttons */
+.profile-btn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 500;
+}
+
+/* Specific Button Colors */
+.delete-button {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #d63434;
+}
+
+.poll-btn {
+    background-color: #00cfff;
+    color: white;
+}
+
+.poll-btn:hover {
+    background-color: #00acd4;
+}
+
+.poll-btn.active {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Polls Section */
+.polls-container {
+    display: flex;
+    flex-direction: column;  
+    gap: 20px;
+    align-items: center; 
+}
+
+.user-card {
+    /* border: 1px solid #9086f3; */
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    background: white;
+    transition: 0.3s;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.poll-card:hover {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.poll-card h4 {
+    margin: 0 0 8px;
+    color: #393535;
+}
+
+.poll-card p {
+    margin: 4px 0;
+}
+
+.poll-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.poll-card li {
+    margin: 2px 0;
+}
+
+/* Common Button Style */
+.button-animated {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 5px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Delete Button - Soft Red */
+.delete-btn {
+    background-color: #d9534f;
+}
+
+.delete-btn:hover {
+    background-color: #c9302c;
+}
+
+/* Poll Buttons - Base Color */
+.poll-btn-custom {
+    background-color: #665dd0;
+}
+
+.poll-btn-custom:hover {
+    background-color: #584ac8;
+}
+
+/* Active Button - Highlight */
+.poll-btn-custom.active {
+    background-color: #4437c7; /* Darker shade to indicate selected */
+    box-shadow: 0 0 0 3px rgba(102, 93, 208, 0.3); /* Subtle outline effect */
+}
+/* Poll Card Header */
+.poll-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Status Badge */
+.status-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.status-badge.open {
+    background-color: #4CAF50; /* Green */
+}
+
+.status-badge.closed {
+    background-color: #e74c3c; /* Red */
+}
+
+/* Question Text */
+.poll-questionn {
+    font-size: 25px; /* or 20px for larger emphasis */
+    font-weight: 600;
+    color: #5f4cac;
+    margin-bottom: 10px;
+}
+
+
+
+/* Category and Expiration Text */
+.poll-category,
+.poll-expiration {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #000000;
+}
+
+.poll-category span,
+.poll-expiration span {
+    font-weight: bold;
+    color: #010104;
+}
+
+/* Options Display */
+.poll-options {
+    margin-top: 10px;
+}
+
+.option-item {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #080101a8;
+
+}
+
+.option-item span {
+    color: #000000;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

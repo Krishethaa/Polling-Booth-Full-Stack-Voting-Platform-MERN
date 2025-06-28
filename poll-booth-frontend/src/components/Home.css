@@ -1,0 +1,37 @@
+.home-container {
+  display: flex;
+  height: 100vh;
+  /* Make sure it stretches full width */
+  width: 100vw; 
+  background: rgb(234, 212, 212);
+  /* Optional: to prevent horizontal scroll */
+  overflow-x: hidden;
+  overflow-y: auto; /* Hide vertical scrollbar */
+}
+
+.left-panel {
+  width: 17%;
+  background-color: #f0f0f0;
+   /* border: 1px solid #cb0d0d;  */
+
+  /* Remove `left: 0;` — it does nothing in flexbox */
+}
+
+.middle-panel {
+width: 58%;
+  /* border-right: 3px solid #b41313;
+  border-left: 3px solid #b41313; */
+
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #eeedf1; /* Optional to visually distinguish */
+}
+.middle-panel::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers */
+}
+.right-panel {
+  
+  width: 25%;
+  background-color: #e0e0e0; /* optional to visually distinguish */
+}

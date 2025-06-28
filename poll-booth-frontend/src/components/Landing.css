@@ -1,0 +1,58 @@
+.landing-container {
+  height: 100vh;
+  background-color: #444e4d;
+  padding: 0;
+  margin: 0;
+}
+
+.landing-content {
+  height: 100%;
+  margin: 0;
+}
+
+.left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poll-logo {
+  max-width: 60%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.right-side {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.title {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.custom-btn {
+  width: 60%;
+  margin: 10px 0;
+  border-radius: 20px;
+  padding: 10px 0;
+}
+
+.signin-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #f0f0f0;
+}
+
+.signin-link {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #060202;
+}
